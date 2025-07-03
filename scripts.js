@@ -193,34 +193,8 @@ if (aboutImage && aboutImg) {
     }
 }
 
-/*=============== EMAIL JS ===============
-const contactForm = document.getElementById('contact-form'),
-        contactMessage = document.getElementById('contact-message')
-
-const sendEmail = (e) => {
-    e.preventDefault()
-
-    // serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_a63n5cf', 'template_6pzg4oi', '#contact-form', 'iiTdbr6hnWa-hYGzW')
-        .then(() => {
-            // Show sent message
-            contactMessage.textContent = 'Message sent successfuly ✅'
-            
-            // Remove message after five seconds
-            setTimeout(() => {
-                contactMessage.textContent = ''
-            }, 5000)
-
-            // Clear input fields
-            contactForm.reset()
-        }, (err) => {
-            contactMessage.textContent = 
-            `Message not sent (service error: ${err.text || err}) ❌`
-        })
-}
-
-contactForm.addEventListener('submit', sendEmail)
-*/
+/*=============== EMAIL JS ===============*/
+// Deleted for Now
 
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () => {
