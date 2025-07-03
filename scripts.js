@@ -93,10 +93,10 @@ const aboutImg = document.querySelector('#imageBorder')
 const isMobile = () => window.innerWidth <= 1151
 
 // Image sources
-const homeImgSrc = 'img/home-img.png'
-const homeImgAnmSrc = 'img/home-img-animated.png'
-const aboutImgSrc = 'img/about-me-img.png'
-const aboutImgAnmSrc = 'img/about-me-img-animated.png'
+const homeImgSrc = 'img/home-img.webp'
+const homeImgAnmSrc = 'img/home-img-animated.webp'
+const aboutImgSrc = 'img/about-me-img.webp'
+const aboutImgAnmSrc = 'img/about-me-img-animated.webp'
 
 // Home image flip functionality
 if (homeImage && homeImg) {
